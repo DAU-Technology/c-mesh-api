@@ -6,6 +6,7 @@
 #ifndef WPC_H__
 #define WPC_H__
 
+#include <stdio.h>
 #include <stdbool.h>
 #include <stdint.h>
 
