@@ -19,7 +19,7 @@ CFLAGS  := -std=gnu99 -Wall -Werror
 #CFLAGS  += -DREGISTER_DATA_PER_ENDPOINT
 
 # Targets definition
-LIB_NAME := mesh_api_lib.a
+LIB_NAME := libmesh.a
 
 TARGET_LIB := $(BUILDPREFIX)$(LIB_NAME)
 
