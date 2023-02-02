@@ -83,7 +83,7 @@ typedef enum
 typedef enum
 {
     APP_ADDR_ANYSINK = 0,             //!< Address is to any sink
-    APP_ADDR_BROADCAST = 0xffffffff,  //!< Address is broadcast to all
+    APP_ADDR_BROADCAST = -1,  //!< Address is broadcast to all
 } app_special_addr_e;
 
 /**
